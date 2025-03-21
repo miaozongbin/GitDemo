@@ -21,30 +21,10 @@
 ***
 ## 我的专业是人工智能
 ## 我最喜欢的一段代码
-    #include <stdio.h>
-    int fibonacci_recursive(int n) {
-    if (n <= 1) {
-        return n;
-    } else {
-        return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2);
-    }
-    }
-
-    int main() {
-    int n, i;
-    printf("输入要计算的斐波那契数列的项数: ");
-    scanf("%d", &n);
-
-    printf("斐波那契数列: ");
-    for (i = 0; i < n; i++) {
-        printf("%d ", fibonacci_recursive(i));
-    }
-    printf("\n");
-
-    return 0;
-    }
-其中执行`printf("输入要计算的斐波那契数列的项数: ");`可得出结果
+import numpy as np
+print(np.array([1,2,3])**2)
+其中执行`print(np.array([1,2,3])**2)`可得出结果
 我最喜欢的环境管理工具是conda
-![图片Alt]("C:\Users\12694\Pictures\Screenshots\屏幕截图 2025-03-06 145221.png" "01 环境搭建的截图一")
+<img src="http://img1.baidu.com/it/u=629540885,1670189011&fm=253&app=138&f=JPEG?w=800&h=1733" alt="克莱恩·莫雷蒂形象" width="800">
 我可以在IDE上使用我建立的虚拟环境
-![图片Alt]("C:\Users\12694\Pictures\Screenshots\屏幕截图 2025-03-06 145221.png" "01 环境搭建的截图一")
+<img src="http://img1.baidu.com/it/u=629540885,1670189011&fm=253&app=138&f=JPEG?w=800&h=1733" alt="克莱恩·莫雷蒂形象" width="800">
